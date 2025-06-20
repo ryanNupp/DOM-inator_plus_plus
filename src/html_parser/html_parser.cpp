@@ -8,3 +8,7 @@ HTMLParser::HTMLParser(std::string_view t_filepath)
 {}
 
 
+void HTMLParser::craftDOM()
+{
+    
+}

@@ -9,6 +9,7 @@
 class HTMLParser {
 public:
     HTMLParser(std::string_view t_filepath);
+    void craftDOM();
 
 private:
     std::shared_ptr<IOQueue> m_io_queue;
